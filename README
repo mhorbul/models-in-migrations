@@ -1,0 +1,4 @@
+Try all migrations
+=========================
+
+for i in ./db/migrate/*; do m=`basename $i | sed -e 's/_.*//'`; echo "Run migration $i"; rake db:migrate VERSION=$m; done
