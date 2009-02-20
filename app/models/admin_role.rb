@@ -1,0 +1,2 @@
+class AdminRole < Role
+end

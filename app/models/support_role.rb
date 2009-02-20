@@ -1,0 +1,2 @@
+class SupportRole < Role
+end
